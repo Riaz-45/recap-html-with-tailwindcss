@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea House</title>
 
+    <link rel="stylesheet" href="style.css">
+
     <!-- Tailwind cdn -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
@@ -13,6 +15,71 @@
 
 </head>
 <body>
-    
+    <!-- banner section -->
+     <div class="parent-div manrope-font mt-[68px] flex flex-col md:flex-row justify-between items-center min-h-[200px] max-w-[1200px] mx-auto">
+        <div class="left-div">
+            <h1 class="text-[75px] font-bold">It's good <br> tea time at The <br> Tea House</h1>
+            <p class="text-[18px] my-7 text-[#777777]">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.</p>
+            <button class="w-[200px] h-[64px] bg-amber-600 text-xl text-white rounded-lg bg-gradient-to-r from-[#FF8938] to-[#FF0000] ">Explore More <span><i class="fa-solid fa-arrow-up-right-from-square"></i></span> </button>
+        </div>
+        <div class="right-div relative">
+            <img class="relative top-[100px]" src="images/banner.png" alt="">
+            <div class="ml-5 bg-white drop-shadow-2xl rounded-2xl w-[255px] h-[100px] flex items-center mx-[20px] absolute left-[30px]">
+                <div>
+                    <span class="text-4xl"><i class="fa-solid fa-star"></i></span>
+                </div>
+                <div class="ml-2">
+                    <p class="text-4xl font-bold">5.00</p>
+                    <p>Trust Pilot Ratings</p>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- Featured Section -->
+      <div class="feature max-w-[1200px] mx-auto mt-[150px] text-center">
+        <h3 class="font-bold text-5xl mb-[20px]">Our Featured Products</h3>
+        <p class="manrope-font text-[#777777] font-medium text-[16px] mb-[50px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,<br> by injected humour, or randomised words which don't look even slightly believable. </p>
+      </div>
+      <div class="featured-parent grid grid-cols-1 md:grid-cols-4 gap-[24px] mt-[50px] text-center items-center max-w-[1200px] mx-auto">
+        <div class="featured rounded-[10px] bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F400]">
+            <img src="images/tea-1.png" class="mx-auto mt-[30px] mb-[30px]" alt="">
+            <h1 class="manrope-font font-bold text-[25px]">Milk Tea</h1>
+            <p class="manrope-font text-[#777777] font-semibold text-[16px] manrope-font">Creamer could be replaced<br> by fresh milk</p>
+        </div>
+        <div class="featured rounded-[10px] bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F400]">
+            <img src="images/tea-2.png" class="mx-auto mt-[30px] mb-[30px]" alt="">
+            <h1 class="manrope-font font-bold text-[25px]">Milk Tea</h1>
+            <p class="manrope-font text-[#777777] font-semibold text-[16px] manrope-font">Creamer could be replaced<br> by fresh milk</p>
+        </div>
+        <div class="featured rounded-[10px] bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F400]">
+            <img src="images/tea-3.png" class="mx-auto mt-[30px] mb-[30px]" alt="">
+            <h1 class="manrope-font font-bold text-[25px]">Milk Tea</h1>
+            <p class="manrope-font text-[#777777] font-semibold text-[16px] manrope-font">Creamer could be replaced<br> by fresh milk</p>
+        </div>
+        <div class="featured rounded-[10px] bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F400]">
+            <img src="images/tea-4.png" class="mx-auto mt-[30px] mb-[30px]" alt="">
+            <h1 class="manrope-font font-bold text-[25px]">Milk Tea</h1>
+            <p class="manrope-font text-[#777777] font-semibold text-[16px] manrope-font">Creamer could be replaced<br> by fresh milk</p>
+        </div>
+    </div>
+
+    <!-- Great Tea Section -->
+     <div class="great-tea mt-[130px] mb-[130px] flex gap-[50px] h-[520px] w-[1200px] mx-auto">
+        <div class="left-div grid grid-cols-2 grid-rows-3 gap-[30px] h-full w-1/2">
+            <div class="bg-gradient-to-r from-[#FF0000] to-[#FF8938] opacity-10 rounded-[10px]"></div>
+            <div class="bg-[#E6A62315] row-span-2 rounded-[10px] flex items-center justify-center"><img class="items-center" src="images/fresh-1.png" alt=""></div>
+            <div class="bg-[#57763915] row-span-2 rounded-[10px] flex items-center justify-center"><img src="images/fresh-2.png" alt=""></div>
+            <div class="bg-gradient-to-r from-[#D9D9D9] to-[#FFFFFF] rounded-[10px]"></div>
+        </div>
+        <div class="right-div h-full w-1/2">
+            <h1 class="manrope-font font-extrabold text-[45px] mb-[20px]">Great Tea, Freshly<br> Presented</h1>
+            <p class="manrope-font text-[#777777] font-medium text-[16px] manrope-font mb-[30px]">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+            <h3 class="manrope-font font-extrabold text-[20px] mb-[10px]">Unique Taste</h3>
+            <p class="manrope-font text-[#777777] font-medium text-[16px] manrope-font mb-[30px]">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+            <h3 class="manrope-font font-extrabold text-[20px] mb-[10px]">Premium Quality</h3>
+            <p class="manrope-font text-[#777777] font-medium text-[16px] manrope-font">Premium Quality that makes tea more elegant and more durable when you use it.</p>
+        </div>
+     </div>
 </body>
 </html>
